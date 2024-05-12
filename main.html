@@ -3,6 +3,7 @@
 
     <head>
         <meta charset="UTF-8">
+        
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>AgeCalculator</title>
         <link rel="stylesheet" href="style.css">
@@ -14,13 +15,13 @@
                 <h1>Age Calculator</h1>
                 <span>Enter Your Date of birth</span>
                 <input type="date" name="" id="birthDate">
-                <span>Enter the current date</span>
-                <input type="date" name="" id="currentDate">
-                <button>Calculate</button>
-                <div id="theAge"></div>
-                <script src="main.js"></script>
+                <span id="birthDateError" class="error"></span>
+                <button  id="calculateButton">Calculate</button>
+                <div id="age"></div>
+             
             </div>
         </div>
+           <script src="main.js"></script>
     </body>
 
 </html>
