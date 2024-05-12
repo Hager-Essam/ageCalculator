@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --mainFontColor: #114232;
+    --backgroundColor: #BACD92;
+    --inputColor: #D7E4C0;
+}
+
+body {
+    color: var(--mainFontColor);
+    font-family: "Gochi Hand", cursive;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.container {
+    display: grid;
+    place-content: center;
+    background-color: var(--backgroundColor);
+    height: 100vh;
+}
+
+input,
+div {
+    display: block;
+    padding: 20px;
+    font-size: 20px;
+    color: var(--mainFontColor);
+}
+
+input {
+    background-color: var(--inputColor);
+    margin: 20px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    width: 500px;
+}
+
+
+button {
+    display: block;
+    padding: 15px;
+    font-size: 15px;
+    background-color: var(--inputColor);
+    border: none;
+    border-radius: 5px;
+    margin: auto;
+}
+
+button:active {
+    letter-spacing: 1px;
+    background-color: var(--mainFontColor);
+    color: var(--inputColor);
+    box-shadow: var(--mainFontColor) 0px 0px 0px 0px;
+    transform: translateY(5px);
+    transition:1s;
+}
+
+.main {
+    border-radius: 30px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 50px -12px, rgba(0, 0, 0, 0.3) 0px 18px 26px -18px inset;
+}
