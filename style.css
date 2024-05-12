@@ -18,6 +18,9 @@ body {
 h1 {
     text-align: center;
     margin-bottom: 30px;
+    background-color: #11423217;
+    border-radius: 15px;
+    padding: 10px;
 }
 
 .container {
