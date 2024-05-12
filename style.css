@@ -24,6 +24,13 @@ h1 {
     padding: 10px;
 }
 
+/* .main div:last-of-type{
+    width: 500px;
+    height: 50px;
+    margin: 20px 20px 0px 20px ;
+    background-color: var(--inputColor);
+    border-radius: 10px;
+} */
 .container {
     display: grid;
     place-content: center;
