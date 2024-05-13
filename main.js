@@ -1,3 +1,4 @@
+
 // Define a new method called `isValidDate` for Date objects
 Date.prototype.isValidDate = function() {
     var currentYear = new Date().getFullYear();
